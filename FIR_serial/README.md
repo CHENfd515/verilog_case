@@ -10,9 +10,12 @@
 ***
 ### 文件说明
 fir_serial_low.v：Verilog源代码文件；\
-fir_serial_low.tb：Testbench文件（其内地址需要列入cosx0p25m7p5m12bit.txt文件地址）；\
-cosx0p25m7p5m12bit.txt：FIR滤波器系数文件（运行.tb文件时调用）；\
-mult_man.v以及mult_cell.v：流水线乘法器文件（运行fir_serial_low.v时调用）；\
+fir_serial_low.tb：Testbench文件\
+（$readmemh地址需改为cosx0p25m7p5m12bit.txt文件地址）；\
+cosx0p25m7p5m12bit.txt：FIR滤波器系数文件\
+（运行.tb文件时调用）；\
+mult_man.v以及mult_cell.v：流水线乘法器文件\
+（运行fir_serial_low.v时调用）；
 ### 代码参考
 https://www.runoob.com/w3cnote/verilog-serial-fir.html
 ### DATE 
